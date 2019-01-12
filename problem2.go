@@ -21,3 +21,7 @@ func main() {
 	}
 	fmt.Println(sum)
 }
+
+func nextFib(term1, term2 int) (int, int) {
+	return term2, term1 + term2
+}
